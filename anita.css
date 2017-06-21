@@ -81,17 +81,119 @@ html, * {margin:0px; padding:0px}
           background-size: cover;
           }
 #intwo p, #inthree p, #infour p{
-  text-align: center;
-  font-family: serif;
-  font-size: 26px;
-  color: white;
-  font-style: italic;
-  padding-top: 40%;
-  height: auto;
-}
-#parag {
-        float: left;
-}
-#imageffood{
-            float: left;
-}
+                                text-align: center;
+                                font-family: serif;
+                                font-size: 26px;
+                                color: white;
+                                font-style: italic;
+                                padding-top: 40%;
+                                height: auto;
+                              }
+#parag, #drinkz{
+                  text-align: center;
+                }
+#parag p, #drinkz p{
+                    font-size: 20px;
+                    font-family: spectral;
+                  }
+
+#fourthrow {
+              text-align: center;
+              padding-top: 50px;
+              background-image: url("foodsBg.jpg");
+              color: white;
+            }
+#fifthrow {
+            text-align: center;
+            margin: 10px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: grey;
+            border-style: g;
+          }
+#ffood:hover {
+            color: red;
+            background-color: white;
+          }
+#ffood {
+            background-color: grey;
+            height: 48px;
+          }
+#drinks {
+            background-color: grey;
+            height: 48px;
+          }
+#drinks:hover {
+            color: red;
+            background-color: white;
+          }
+#chiken {
+            background-color: grey;
+            height: 48px;
+          }
+#chiken:hover {
+            color: red;
+            background-color: white;
+          }
+#rice {
+            background-color: grey;
+            height: 48px;
+          }
+#rice:hover {
+              color: red;
+              background-color: white;
+            }
+#sixthrow {
+              background-image: url("../img/subscribe.jpg");
+              color: white;
+              text-align: center;
+              padding: 100px
+            }
+#result {
+          display: none;
+        }
+#sevethrow {
+              background-color: #F15A29;
+              color: white;
+              text-align: center;
+            }
+#sawaq {
+        background-color: grey;
+        text-align: left;
+        }
+#youremail {
+            color: black;
+            text-align: center;
+            }
+.button {
+         border-radius: 10px;
+         background-color: white;
+         border-color: red;
+         text-align: center;
+         color: red;
+         padding: 15px;
+         transition: all 0.5s;
+        }
+
+.button span {
+              display: inline-block;
+              position: relative;
+              transition: 0.5s;
+            }
+
+.button span:after {
+                    content: '\00bb';
+                    transition: 0.5s;
+                    }
+
+.button:hover span {
+                    padding-right: 10px;
+                    }
+.siko {
+        width: 100%;
+        font-size: 30px;
+      }
+.container {
+            background-color: dimgray;
+            color: cyan;
+            }
